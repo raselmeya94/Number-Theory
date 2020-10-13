@@ -1,0 +1,22 @@
+Greatest Common Divisor:
+Greatest Common Divisor (GCD) of two or more numbers is the largest positive number that divides all the numbers which are being taken into consideration.
+For example: GCD of 6, 10 is 2 since 2 is the largest positive number that divides both 6 and 10.
+
+Naive Approach:
+
+We can traverse over all the numbers from min(A, B) to 1 and check if the current number divides both A and B or not. If it does, then it will be the GCD of A and B.
+Time Complexity: Time complexity of this function is O(min(A, B)).
+
+Euclid’s Algorithm:
+Idea behind Euclid’s Algorithm is GCD(A, B) = GCD(B, A % B). The algorithm will recurse until A % B = 0.
+Let us take an example.
+Let A = 16, B = 10.
+GCD(16, 10) = GCD(10, 16 % 10) = GCD(10, 6)
+GCD(10, 6) = GCD(6, 10 % 6) = GCD(6, 4)
+GCD(6, 4) = GCD(4, 6 % 4) = GCD(4, 2)
+GCD(4, 2) = GCD(2, 4 % 2) = GCD(2, 0)
+
+Since B = 0 so GCD(2, 0) will return 2.
+
+Time Complexity: The time complexity of Euclid’s Algorithm is O(log(max(A, B))).
+
