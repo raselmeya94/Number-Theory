@@ -1,5 +1,5 @@
 <!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
-<h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="color: #000000; background-color: #ff0000;"><span style="text-decoration: underline;">Number Theory</span></span></h1>
+<h1 style="text-align: center;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style="color: #000000; background-color: #ff0000;"><span style="text-decoration: underline;">Number Theory</span></span></h1>
 <h2 style="color: #2e6c80;">Introduction:<strong style="color: #000000; font-size: 14px;"> Problems in competitive programming which involve Mathematics are are usually about number theory, or geometry. If you know number theory, that increases your ammo heavily in solving a lot of tougher problems, and helps you in getting a strong hold on a lot of other problems, too. Problems in competitive programming require insight, so just knowing some topics is not enough at all. All of the problems requires more or less math tough. For instance, solving large systems of equations and approximating solutions to differential equations.</strong></h2>
 <h3><strong>Topics</strong><strong style="color: #000000; font-size: 14px;">:</strong></h3>
 <ul>
